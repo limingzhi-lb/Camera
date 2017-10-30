@@ -1,0 +1,36 @@
+d:\documents\visual studio 2013\Projects\Camera\Camera\bin\Debug\Camera.exe.config
+d:\documents\visual studio 2013\Projects\Camera\Camera\bin\Debug\Camera.exe
+d:\documents\visual studio 2013\Projects\Camera\Camera\bin\Debug\Camera.pdb
+d:\documents\visual studio 2013\Projects\Camera\Camera\obj\Debug\Camera.csprojResolveAssemblyReference.cache
+d:\documents\visual studio 2013\Projects\Camera\Camera\obj\Debug\Camera.Properties.Resources.resources
+d:\documents\visual studio 2013\Projects\Camera\Camera\obj\Debug\Camera.csproj.GenerateResource.Cache
+d:\documents\visual studio 2013\Projects\Camera\Camera\obj\Debug\Camera.exe
+d:\documents\visual studio 2013\Projects\Camera\Camera\obj\Debug\Camera.pdb
+D:\Documents\Visual Studio 2013\Projects\Camera\Camera\obj\Debug\Camera.Login.resources
+D:\Documents\Visual Studio 2013\Projects\Camera\Camera\obj\Debug\Camera.Main.resources
+C:\Users\Administrator\Desktop\Camera\Camera\bin\Debug\Camera.exe.config
+C:\Users\Administrator\Desktop\Camera\Camera\obj\Debug\Camera.exe
+C:\Users\Administrator\Desktop\Camera\Camera\obj\Debug\Camera.pdb
+C:\Users\Administrator\Desktop\Camera\Camera\bin\Debug\Camera.exe
+C:\Users\Administrator\Desktop\Camera\Camera\bin\Debug\Camera.pdb
+C:\Users\Administrator\Desktop\Camera\Camera\obj\Debug\Camera.csprojResolveAssemblyReference.cache
+C:\Users\Administrator\Desktop\Camera\Camera\obj\Debug\Camera.Login.resources
+C:\Users\Administrator\Desktop\Camera\Camera\obj\Debug\Camera.Main.resources
+C:\Users\Administrator\Desktop\Camera\Camera\obj\Debug\Camera.Properties.Resources.resources
+C:\Users\Administrator\Desktop\Camera\Camera\obj\Debug\Camera.csproj.GenerateResource.Cache
+C:\Users\Administrator\Desktop\网络摄像头的二次编程\Camera\Camera\bin\Debug\Camera.exe.config
+C:\Users\Administrator\Desktop\网络摄像头的二次编程\Camera\Camera\obj\Debug\Camera.exe
+C:\Users\Administrator\Desktop\网络摄像头的二次编程\Camera\Camera\obj\Debug\Camera.pdb
+C:\Users\Administrator\Desktop\网络摄像头的二次编程\Camera\Camera\obj\Debug\Camera.csprojResolveAssemblyReference.cache
+C:\Users\Administrator\Desktop\网络摄像头的二次编程\Camera\Camera\obj\Debug\Camera.Login.resources
+C:\Users\Administrator\Desktop\网络摄像头的二次编程\Camera\Camera\obj\Debug\Camera.Main.resources
+C:\Users\Administrator\Desktop\网络摄像头的二次编程\Camera\Camera\obj\Debug\Camera.Properties.Resources.resources
+C:\Users\Administrator\Desktop\网络摄像头的二次编程\Camera\Camera\obj\Debug\Camera.csproj.GenerateResource.Cache
+C:\Users\Administrator\Desktop\网络摄像头的二次编程\Camera\Camera\bin\Debug\Camera.exe
+C:\Users\Administrator\Desktop\网络摄像头的二次编程\Camera\Camera\bin\Debug\Camera.pdb
+C:\Users\Administrator\Desktop\网络摄像头的二次编程\Camera\Camera\obj\Debug\Camera.Set_Form.resources
+C:\Users\Administrator\Desktop\Camera\Camera\bin\Debug\Camera.exe.manifest
+C:\Users\Administrator\Desktop\Camera\Camera\bin\Debug\Camera.application
+C:\Users\Administrator\Desktop\Camera\Camera\obj\Debug\Camera.Set_Form.resources
+C:\Users\Administrator\Desktop\Camera\Camera\obj\Debug\Camera.exe.manifest
+C:\Users\Administrator\Desktop\Camera\Camera\obj\Debug\Camera.application

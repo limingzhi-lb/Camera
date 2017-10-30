@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="Camera.exe" version="1.0.0.0" publicKeyToken="2c3ab6cacc44e0d3" language="neutral" processorArchitecture="amd64" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="Camera" version="1.0.0.0" language="neutral" processorArchitecture="amd64" />
+    <commandLine file="Camera.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC 清单选项
+          如果要更改 Windows 用户帐户控制级别，请用以下节点之一替换
+          requestedExecutionLevel 节点。
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+          如果要利用文件和注册表虚拟化提供
+          向后兼容性，请删除 requestedExecutionLevel 节点。
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Camera.exe" size="125440">
+      <assemblyIdentity name="Camera" version="1.0.0.0" language="neutral" processorArchitecture="amd64" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>jx8cT/qUeyegdahyj+cn3xfbQfNolJLQom7TUlDTxDk=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="Camera.exe.config" size="472">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>nH6m8/ENthhZOmj0BZbO6lccS32UKYyqS5P3TkO/4jc=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=PC-201610031201\Administrator" issuerKeyHash="28d7cbc648b0773440f80a9fd192568af1119476" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>5R3WhkbtIDTQnEFxqPqrRJVX6/3eA5NUC4DLk9tgCmI=</DigestValue></Reference></SignedInfo><SignatureValue>Wns9F5xaHFRSwROhdeEPz0WT9dW2O12NqABMuo3QliWmAHMIAvg81A91VbaDQO59cL9jcqwtjYGK9lQVRRnhwyyBL5P9vO9zW6nYGdXV9vWJCnIcUDuYjvl9usXwocrqq+Fi/l7MisbW/Q8bdFUJ2D9/THkBVVaq4L/B3med+rs=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>39BQ8iJHP/yuIVVhdAvRC7D2NyZh2h1VCZcU2215QwgSeNiNJm/+Q9uM1QAZnLm/kCDivvj09Faqe85TYhvl4t5/dhLsUSeR7i0hkoeAp1XDoqCrhgEqS2zPkS0v+WKBKi6ssXjGVfPz/k2YNVQ06+F4aOSvmuto7EsQmp83Nxk=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="620a60db93cb800b549303defdeb579544abfaa871419cd03420ed4686d61de5" Description="" Url=""><as:assemblyIdentity name="Camera.exe" version="1.0.0.0" publicKeyToken="2c3ab6cacc44e0d3" language="neutral" processorArchitecture="amd64" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=PC-201610031201\Administrator</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>Tl4DKuTKXlz52QfGZwlgFJoAgGzrykLHXQQ/19ZLIN8=</DigestValue></Reference></SignedInfo><SignatureValue>fQe5Ux4bwldO4SSkDghX6QDtXkI2oE3jK2UQBvLK4CujVNMy5vt4UWwgxwXYWCP6qBMdz2G6k20SyHUkNldXbkwbAirS998V4KXAKjW0O8/NRfu/Jp6T35Xf845NkQmdeEw1FFnPWMZLj0HDTpZEqgYIe4B7dF23Sn9H1il6G0w=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>39BQ8iJHP/yuIVVhdAvRC7D2NyZh2h1VCZcU2215QwgSeNiNJm/+Q9uM1QAZnLm/kCDivvj09Faqe85TYhvl4t5/dhLsUSeR7i0hkoeAp1XDoqCrhgEqS2zPkS0v+WKBKi6ssXjGVfPz/k2YNVQ06+F4aOSvmuto7EsQmp83Nxk=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIICDTCCAXagAwIBAgIQVn9czvdOLLlL3pv5boIyXDANBgkqhkiG9w0BAQsFADBFMUMwQQYDVQQDHjoAUABDAC0AMgAwADEANgAxADAAMAAzADEAMgAwADEAXABBAGQAbQBpAG4AaQBzAHQAcgBhAHQAbwByMB4XDTE3MDIyMTIwMzg0MloXDTE4MDIyMjAyMzg0MlowRTFDMEEGA1UEAx46AFAAQwAtADIAMAAxADYAMQAwADAAMwAxADIAMAAxAFwAQQBkAG0AaQBuAGkAcwB0AHIAYQB0AG8AcjCBnzANBgkqhkiG9w0BAQEFAAOBjQAwgYkCgYEA39BQ8iJHP/yuIVVhdAvRC7D2NyZh2h1VCZcU2215QwgSeNiNJm/+Q9uM1QAZnLm/kCDivvj09Faqe85TYhvl4t5/dhLsUSeR7i0hkoeAp1XDoqCrhgEqS2zPkS0v+WKBKi6ssXjGVfPz/k2YNVQ06+F4aOSvmuto7EsQmp83NxkCAwEAATANBgkqhkiG9w0BAQsFAAOBgQCI9ukpTEFbUZW+RspuON/uMARvwqLE+wczW0TEnIBIn0kAfpuETXQVgETgxpnXUAt/+L49wM23BWIFHsGovRMnjh2q2Xws6PoMO9atjTZ7fz/Juag9sDU0dVPXdAS8XrRAA/haNuToBhu3GL2/EtaTAdW7OJKMJ5oRpC+GwYRJCw==</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
